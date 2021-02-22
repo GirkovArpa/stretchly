@@ -1,0 +1,91 @@
+:root {
+  var(color): rgba(255, 255, 255, 0.85);
+  var(background-color): #2D2D2D;
+}
+
+html {
+  height: max-content;
+  width: max-content;
+  min-height: min-content;
+  min-width: min-content;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: min-content;
+  min-height: min-content;
+  color: var(color, red);
+  background-color: var(background-color, red);
+}
+
+toolbar {
+  display: block;
+  flow: horizontal;
+  background: rgb(65, 65, 65);
+}
+
+toolbar>button {
+  size: 34px;
+  foreground-repeat: no-repeat;
+  foreground-position: 50% 50%;
+  foreground-size: 24px;
+}
+
+toolbar>button.disabled {
+  filter: grayscale(1.0);
+  opacity: 0.55;
+}
+
+toolbar>button#settings {
+  foreground-image: url(this://app/assets/svg/preferences/settings.svg);
+}
+
+toolbar>button#schedule {
+  foreground-image: url(this://app/assets/svg/preferences/schedule.svg);
+}
+
+toolbar>button#theme {
+  foreground-image: url(this://app/assets/svg/preferences/theme.svg);
+}
+
+toolbar>button#about {
+  foreground-image: url(this://app/assets/svg/preferences/about.svg);
+}
+
+toolbar>button#love {
+  foreground-image: url(this://app/assets/svg/preferences/heart.svg);
+}
+
+#preferences-container {
+  justify-content: center;
+  horizontal-align: center;
+  vertical-align: middle;
+  padding: 20;
+}
+
+#preferences-container>.container {
+  size: max-content;
+  flow: vertical;
+}
+
+#preferences-container>.container>.row {
+  flow: horizontal;
+  margin: 20 0 20 0;
+  vertical-align: middle;
+}
+
+#preferences-container>.container>.row>input {
+  margin-right: 10;
+}
+
+#preferences-container>.container>.row>select {
+  margin-left: 10;
+}
+
+.centered {
+  text-align: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome to Stretchly-lite</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/menu.css" rel="stylesheet">
+    <!--<link href="assets/css/android-material/theme.css" rel="stylesheet">-->
+    <script src="assets/js/main.js" type="text/javascript" type="module"></script>
+    <script src="assets/js/locale.js" type="text/javascript" type="module"></script>
+    <!--<script src="assets/js/tray-icon.js" type="text/javascript" type="module"></script>-->
+  </head>
+
+  <body>
+    <include media="sciter" src="this://app/assets/html/tray-menu.html" />
+    <div #container>
+      <div #banner>
+        <img src="assets/svg/stretchly.svg" alt="Stretchy logo">
+        <span>Stretchly<sup><sup><sup>lite</sup></sup></sup></span>
+      </div>
+      <div #sub-banner>
+        <span>The break time reminder app</span>
+      </div>
+      <div #locales .hidden></div>
+      <div #buttons>
+        <div #left>
+          <button .default>View Tutorial</button>
+        </div>
+        <div #space> </div>
+        <div #right>
+          <button #preferences>Open Preferences</button>
+          <button .primary>Get Started</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

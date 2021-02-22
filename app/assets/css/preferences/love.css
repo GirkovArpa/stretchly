@@ -1,0 +1,65 @@
+.love>.col>#banner {
+  width: *;
+  text-align: center;
+  vertical-align: middle;
+  margin: 20 auto 0 auto;
+  font-size: 40px;
+  height: 45px;
+  flow: horizontal;
+}
+
+.love {
+  size: *;
+  padding: 20 150 20 150;
+  margin: auto;
+  flow: horizontal;
+}
+
+.col {
+  flow: vertical;
+}
+
+.col-1 {
+  width: max-content;
+  ;
+}
+
+.col-2 {
+  width: 450px;
+}
+
+.love>.col>.row {
+  flow: horizontal;
+  text-align: center;
+  width: 450px;
+  margin: 20 auto;
+  font-size: 18px;
+}
+
+.love>.col>.row>button {
+  width: 150px;
+  text-align: center;
+}
+
+input {
+  margin-right: 0px;
+}
+
+.love>.col>.row>span:not(.justify) {
+  margin: 0 auto;
+  flow: horizontal;
+}
+
+.love>.col>.row>input[type=checkbox] {
+  transform: translate(10px, 0);
+}
+
+.justify {
+  text-align: justify;
+  width: *;
+}
+
+.col-1>img {
+  size: 100px;
+  transform: translate(0, 50px);
+}

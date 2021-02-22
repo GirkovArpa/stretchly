@@ -1,0 +1,112 @@
+:root {
+  var(color): rgba(255, 255, 255, 0.85);
+  var(background-color): #2D2D2D;
+}
+
+html {
+  height: max-content;
+  width: max-content;
+  min-height: min-content;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+}
+
+body {
+  margin: 0;
+  padding: 0 20 20 20;
+  color: var(color, red);
+  background-color: var(background-color, red);
+  font-family: 'Open Sans';
+  text-align: center;
+  min-width: min-content;
+  min-height: min-content;
+}
+
+#container {
+  size: *;
+  padding-top: 30;
+}
+
+#banner>span {
+  font-size: 48;
+  line-height: 55px;
+  vertical-align: middle;
+}
+
+#banner>img {
+  transform: translate(0, -4px);
+}
+
+#sub-banner {
+  font-family: 'Open Sans Light';
+  line-height: 30px;
+  font-size: 20;
+  margin-bottom: 24;
+}
+
+#locales {
+  flow: horizontal-flow;
+  horizontal-align: center;
+  overflow-y: auto;
+  height: 300px;
+  opacity: 1;
+  transition: opacity quad-in-out 0.5s;
+}
+
+#locales.hidden {
+  opacity: 0;
+}
+
+#locales>div {
+  width: 100px;
+  height: 85px;
+  margin: 5px 0;
+}
+
+#locales>div>img {
+  border: 1px solid #979797;
+  size: 42px;
+  border-radius: 42px;
+  display: block;
+  margin: 0 auto 3px auto;
+}
+
+#locales>div.placeholder {
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#locales>div>[type=radio] {
+  hit-margin: 50;
+}
+
+#locales>div>label {
+  font-family: 'Arial';
+}
+
+#buttons {
+  flow: horizontal;
+  margin-top: 20;
+}
+
+#buttons>div {}
+
+#buttons>div>button {
+  margin: 3px;
+}
+
+.default {}
+
+#right {
+  flow: grid(1, 1);
+}
+
+#right>button {
+  width: *;
+}
+
+#space {
+  width: *;
+}

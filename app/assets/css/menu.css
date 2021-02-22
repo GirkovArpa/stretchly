@@ -1,0 +1,26 @@
+:root {
+  var(color): rgba(255, 255, 255, 0.85);
+  var(background-color): #2D2D2D;
+}
+
+menu {
+  background-color: var(background-color, red);
+  border-color: #3C4043;
+}
+
+menu>hr {
+  border-color: #3C4043;
+}
+
+menu>li {
+  color: var(color, red);
+}
+
+li:disabled {
+  color: #8B9196;
+}
+
+li:hover {
+  background-color: #4B4C4F;
+  filter: saturate(0);
+}

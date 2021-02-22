@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Stretchly-lite Preferences</title>
+    <link href="this://app/assets/css/preferences/preferences.css" rel="stylesheet">
+    <link href="this://app/assets/css/preferences/schedule.css" rel="stylesheet">
+    <script src="this://app/assets/js/preferences/preferences.js" type="text/javascript" type="module"></script>
+  </head>
+
+  <body>
+    <toolbar>
+      <button #settings />
+      <button #schedule />
+      <button #theme disabled .disabled />
+      <button #about />
+      <button #love />
+    </toolbar>
+    <div #preferences-container>
+      <include src="this://app/assets/html/preferences/settings.html" media="sciter" />
+    </div>
+  </body>
+
+</html>

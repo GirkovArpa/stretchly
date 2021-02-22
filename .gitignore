@@ -1,8 +1,4 @@
-node_modules
-npm-debug.log
-.DS_Store
-dist
-coverage
-.history
-.vscode
-.idea
+/target
+*.dll
+*.exe
+dev

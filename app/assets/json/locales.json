@@ -1,0 +1,127 @@
+{
+  "bg": {
+    "name": "Bulgaria",
+    "label": "Български",
+    "flag": "bulgaria"
+  },
+  "cs": {
+    "name": "Czechia",
+    "label": "Čeština",
+    "flag": "czech-republic"
+  },
+  "da": {
+    "name": "Denmark",
+    "label": "Dansk",
+    "flag": "denmark"
+  },
+  "de": {
+    "name": "Germany",
+    "label": "Deutsch",
+    "flag": "germany"
+  },
+  "en": {
+    "name": "UK",
+    "label": "English",
+    "flag": "united-kingdom"
+  },
+  "eo": {
+    "name": "Esperantujo",
+    "label": "Esperanto",
+    "flag": "esperantujo"
+  },
+  "es": {
+    "name": "Spain",
+    "label": "Español",
+    "flag": "spain"
+  },
+  "fr": {
+    "name": "France",
+    "label": "Français",
+    "flag": "france"
+  },
+  "hi": {
+    "name": "India",
+    "label": "हिन्दी",
+    "flag": "india"
+  },
+  "hu": {
+    "name": "Hungary",
+    "label": "Magyar",
+    "flag": "hungary"
+  },
+  "it": {
+    "name": "Italy",
+    "label": "Italiano",
+    "flag": "italy"
+  },
+  "ko": {
+    "name": "South Korea",
+    "label": "한국어",
+    "flag": "south-korea"
+  },
+  "lt": {
+    "name": "Lithuania",
+    "label": "Lietuvių",
+    "flag": "lithuania"
+  },
+  "nb_NO": {
+    "name": "Bokmål",
+    "label": "Bokmål",
+    "flag": "norway"
+  },
+  "nl": {
+    "name": "Netherlands",
+    "label": "Nederlands",
+    "flag": "netherlands"
+  },
+  "np": {
+    "name": "Nepal",
+    "label": "नेपाली",
+    "flag": "nepal"
+  },
+  "pl": {
+    "name": "Poland",
+    "label": "Polski",
+    "flag": "poland"
+  },
+  "pt-BR": {
+    "name": "Brazil",
+    "label": "Brasileiro",
+    "flag": "brazil"
+  },
+  "ro": {
+    "name": "Romania",
+    "label": "Română",
+    "flag": "romania"
+  },
+  "ru": {
+    "name": "Russia",
+    "label": "Русский",
+    "flag": "russia"
+  },
+  "sk": {
+    "name": "Slovakia",
+    "label": "Slovenčina",
+    "flag": "slovakia"
+  },
+  "sv": {
+    "name": "Turkey",
+    "label": "Türkçe",
+    "flag": "turkey"
+  },
+  "uk": {
+    "name": "Ukraine",
+    "label": "Українська",
+    "flag": "ukraine"
+  },
+  "zh-CN": {
+    "name": "China",
+    "label": "简体中文",
+    "flag": "china"
+  },
+  "zh-TW": {
+    "name": "Taiwan",
+    "label": "正體中文",
+    "flag": "taiwan"
+  }
+}

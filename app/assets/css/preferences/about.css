@@ -1,0 +1,60 @@
+#banner, #sub-banner {
+  width: 400px;
+  text-align: center;
+  margin: 20 auto 0 auto;
+}
+
+#banner>span {
+  font-size: 45;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+#banner>img {
+  transform: translate(0, 4px);
+  size: 70px;
+}
+
+#sub-banner {
+  text-align: center;
+  font-family: 'Open Sans Light';
+  line-height: 20px;
+  font-size: 18;
+  margin: 5 auto 20 auto;
+}
+
+.about {
+  size: *;
+  padding: 20 150 20 150;
+  margin: auto;
+}
+
+.about>.row {
+  flow: horizontal;
+  text-align: center;
+  width: 300px;
+  margin: 20 auto;
+}
+
+input {
+  margin-right: 0px;
+}
+
+.about>.row>span:not(.justify) {
+  margin: 0 auto;
+  flow: horizontal;
+}
+
+.about>.row>input[type=checkbox] {
+  transform: translate(10px, 0);
+}
+
+.justify {
+  text-align: justify;
+  width: *;
+}
+
+img.home {
+  vertical-align: middle;
+  margin-right: 5px;
+}

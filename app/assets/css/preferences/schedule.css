@@ -1,0 +1,13 @@
+slider {
+  margin: 0 10 0 10;
+}
+
+.width-100 {
+  width: 70px;
+}
+
+.slider {
+  text-align: right;
+  flow: horizontal;
+  width: max-content;
+}

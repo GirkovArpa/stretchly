@@ -1,0 +1,69 @@
+<link href="this://app/assets/css/default-unisex/theme.css" rel="stylesheet">
+<div .container .schedule>
+  <div .row #MINI_BREAKS>
+    <span>Mini Breaks are short breaks taken regularly to give you a chance to stretch and relax.</span>
+  </div>
+  <div .row>
+    <input |checkbox #mini-breaks /><span>Enable Mini Breaks</span>
+  </div>
+  <div .row>
+    <div .centered .slider>
+      <span .width-100>Break for:</span>
+      <slider min=0 max=100 value=50 />
+      <span>1 minute</span>
+    </div>
+  </div>
+  <div .row>
+    <div .centered .slider>
+      <span .width-100>Every:</span>
+      <slider min=0 max=100 value=50 />
+      <span>1 minute</span>
+    </div>
+  </div>
+  <div .row>
+    <input |checkbox #mini-breaks-notification /><span>Show notification before Mini Break starts</span>
+  </div>
+  <div .row>
+    <input |checkbox #mini-breaks-postpone /><span>Enable Postponement for Mini Break</span>
+  </div>
+  <hr>
+  <div .row>
+    <span>Long Breaks are taken less regularly, but are of greater duration, allowing you to take an extended break from
+      your
+      work.</span>
+  </div>
+  <div .row>
+    <input |checkbox #long-breaks /><span>Enable Long Breaks</span>
+  </div>
+  <div .row>
+    <div .centered .slider>
+      <span .width-100>Break for:</span>
+      <slider min=0 max=100 value=50 />
+      <span>1 minute</span>
+    </div>
+  </div>
+  <div .row>
+    <div .centered .slider>
+      <span .width-100>Every:</span>
+      <slider min=0 max=100 value=50 />
+      <span>1 minute</span>
+    </div>
+  </div>
+  <div .row>
+    <input |checkbox #long-breaks-notification /><span>Show notification before Long Break starts</span>
+  </div>
+  <div .row>
+    <input |checkbox #long-breaks-postpone /><span>Enable Postponement for Long Break</span>
+  </div>
+  <hr>
+  <div .row>
+    <span>Strict Mode prevents you from skipping either Mini Breaks or Long Breaks and is designed to help
+      discipline.</span>
+  </div>
+  <div .row>
+    <input |checkbox #strict-mini /><span>Enable Strict Mode for Mini Breaks</span>
+  </div>
+  <div .row>
+    <input |checkbox #strict-long /><span>Enable Strict Mode for Long Breaks</span>
+  </div>
+</div>

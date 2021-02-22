@@ -1,0 +1,23 @@
+[package]
+name = "stretchly-lite"
+version = "0.1.0"
+authors = ["GirkovArpa <girkovarpa@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+sciter-rs = "*"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
+
+[package.metadata.winres]
+OriginalFilename = "stretchly-lite.exe"
+LegalCopyright = "Copyright © Jan Hovancik 2016-2020, GirkovArpa 2021"
+FileDescription = "Stretchly-lite: The break time reminder app"
+ProductName = "Stretchly-lite"
+ProductVersion = "0.1.0"
+
+[profile.release]
+opt-level = "z"  # Optimize for size.
+panic = "abort"
+debuginfo = "0"

@@ -1,0 +1,48 @@
+<script type="text/javascript" type="module" src="this://app/assets/js/preferences/settings.js"></script> 
+<div .container>
+  <div .row>
+    <input |checkbox #auto-start />
+    <span>Start Stretchly<sup>lite</sup> automatically when logging in</span>
+  </div>
+  <div .row>
+    <span>Show breaks in:</span>
+  </div>
+  <div .row>
+    <div .centered>
+      <span>
+        <input |radio #windowed />
+        <label for="windowed">Windowed</label>
+      </span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <span>
+        <input |radio #full-screen />
+        <label for="windowed">Full Screen</label>
+      </span>
+    </div>
+  </div>
+  <div .row>
+    <input |checkbox #break-tips />
+    <span>Show exercise tips during breaks</span>
+  </div>
+  <div .row>
+    <input |checkbox #all-monitors />
+    <span>Show breaks on all monitors</span>
+  </div>
+  <div .row>
+    <input |checkbox #monitor-idle />
+    <span>Monitor system idle time (breaks are paused if system is idle)</span>
+  </div>
+  <div .row>
+    <input |checkbox #dnd-breaks />
+    <span>Show breaks even in Do Not Disturb mode</span>
+  </div>
+  <hr>
+  <div .row>
+    <span>Select language:</span>
+    <select #languages></select>
+  </div>
+  <hr>
+  <div .row>
+    <button #restore-defaults>Restore defaults</button>
+  </div>
+</div>
